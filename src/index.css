@@ -350,19 +350,25 @@ body {
   margin-right: 12px;
   font-size: 18px;
 }
+.btn.my_btn:focus-visible {
+  border: 1px solid #127b0b;
+
+outline: #127B0C outset 2px;
+}
 
 .from-input {
   display: flex;
 }
 
 .my_btn {
-  width: auto;
   padding: 0 9px;
   font-size: 17px;
   border: 1px solid #127b0b;
   background: #127b0b;
   outline: #127B0C outset 2px;
   border-radius: 2px;
+  width: auto;
+  min-width: 17%;
 }
 
 label.my-label {
@@ -387,4 +393,11 @@ label.todo-label {
   font-size: 18px;
   margin-top: 10px;
   font-weight: 700;
+}
+.ed-dl.dlt {
+  background: #ef1616;
+}
+.edit_btn {
+  background: #127b0b;
+  color: #fff;
 }

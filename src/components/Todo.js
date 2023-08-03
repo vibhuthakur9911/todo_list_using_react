@@ -81,7 +81,7 @@ export default function Todo(props) {
         <div className="btn-group">
         <button
           type="button"
-          className=" ed-dl"
+          className=" ed-dl edit_btn"
           onClick={() => setEditing(true)}
           ref={editButtonRef}
           >
@@ -89,7 +89,7 @@ export default function Todo(props) {
           </button>
           <button
             type="button"
-            className=" btn__danger ed-dl"
+            className=" btn__danger ed-dl dlt"
             onClick={() => props.deleteTask(props.id)}
           >
             Delete <span className="visually-hidden">{props.name}</span>
