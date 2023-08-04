@@ -21,7 +21,6 @@ export default function Todo(props) {
   function handleChange(e) {
     setNewName(e.target.value);
   }
-
   function handleSubmit(e) {
     e.preventDefault();
     if (!newName.trim()) {
@@ -64,7 +63,6 @@ export default function Todo(props) {
       </div>
     </form>
   );
-
   const viewTemplate = (
     <div className="stack-small">
       <div className="c-cb">
@@ -85,14 +83,14 @@ export default function Todo(props) {
           onClick={() => setEditing(true)}
           ref={editButtonRef}
           >
-            Edit <span className="visually-hidden">{props.name}</span>
+            {/*Edit*/} <i class="gg-pen"></i> <span className="visually-hidden">{props.name}</span>
           </button>
           <button
             type="button"
             className=" btn__danger ed-dl dlt"
             onClick={() => props.deleteTask(props.id)}
           >
-            Delete <span className="visually-hidden">{props.name}</span>
+              {/*Delete*/}<i class="gg-trash"></i>  <span className="visually-hidden">{props.name}</span>
           </button>
         </div>
     </div>

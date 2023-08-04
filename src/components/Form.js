@@ -31,8 +31,8 @@ function Form(props) {
         type="text"
         id="new-todo-input"
         className="input input__lg my-input"
-        name="text"
-        autoComplete="off"
+          name="text"
+        autoComplete="off"  
         value={name}
         onChange={handleChange}
       />

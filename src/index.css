@@ -1,3 +1,11 @@
+@import url("https://css.gg/css");
+
+/* UNPKG */
+@import url("https://unpkg.com/css.gg/icons/icons.css");
+
+/* JSDelivr */
+@import url("https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css");
+
 /* RESETS */
 *,
 *::before,
@@ -383,8 +391,8 @@ label.my-label {
 .ed-dl {
   margin: 0px 5px;
   border-radius: 4px;
-  border: 1px solid #a8a8a8;
-  padding: 7px 8px;
+  /* border: 1px solid #a8a8a8; */
+  padding: 8px 11px;
 }
 label.todo-label {
   font-size: 15px;
