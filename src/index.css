@@ -337,26 +337,25 @@ body {
   margin-top: 5px;
   border-radius: 5px;
 }
-
 .btn-group {
   font-size: 15px;
 }
-
 .btn-group .btn {padding: 3px 10px;}
-
 .filters.btn-group.stack-exception button.btn.toggle-btn {
   padding: 8px 9px;
   margin: 10px 5px;
   border-radius:5px
 }
-
 .my-input {
-  padding: 6px 7px;
+  padding: 12px 10px;
   border: 1px solid #bab9b9;
   border-radius: 4px !important;
   margin-bottom: 0 !important;
   margin-right: 12px;
   font-size: 18px;
+}
+.from-input .my-input::placeholder{
+  font-size: 14px;
 }
 .btn.my_btn:focus-visible {
   border: 1px solid #127b0b;

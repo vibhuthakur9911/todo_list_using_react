@@ -13,7 +13,6 @@ function Form(props) {
     setName("");
   }
 
-
   function handleChange(e) {
     setName(e.target.value);
   }
@@ -25,7 +24,6 @@ function Form(props) {
           What needs to be done?
         </label>
       </h2>
-
      <div className="from-input">
      <input
         type="text"
@@ -34,6 +32,7 @@ function Form(props) {
           name="text"
         autoComplete="off"  
         value={name}
+        placeholder="Enter your Task Here...."
         onChange={handleChange}
       />
       <button type="submit" className="btn btn__primary btn__lg my_btn">
@@ -43,5 +42,6 @@ function Form(props) {
     </form>
   );
 }
+
 
 export default Form;

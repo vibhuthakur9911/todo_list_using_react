@@ -97,7 +97,7 @@ function App(props) {
 
   return (
     <div className="row justify-content-center">
-      <div className="col-md-6">
+      <div className="col-md-10">
         <div className="todoapp stack-large">
           <Form addTask={addTask} />
           <div className="filters btn-group stack-exception">{filterList}</div>
